@@ -52,7 +52,7 @@ login credentials **
 > npm install
 
 ** After all dependencies are installed, enter command **
-> knex npx migration:latest
+> npx knex migrate:latest
 >
 > This command will create the tables in your database automatically, making
 > migration through migration files located in ./src/database/knex_migrations
@@ -68,8 +68,24 @@ login credentials **
 >
 > Run our tests
 
-####### Accessing the documentation route
+###### Accessing the documentation route
 
 > /apiDocs
 >
 > Our Swagger documentation
+> 
+###### Some images
+
+![alt text](https://github.com/FelipeLelis/TestFuerza/blob/main/images/Swagger.png?raw=true)
+
+![alt text](https://github.com/FelipeLelis/TestFuerza/blob/main/images/teste_delete_api_posts.png?raw=true)
+
+![alt text](https://github.com/FelipeLelis/TestFuerza/blob/main/images/teste_get_api_post_one.png?raw=true)
+
+![alt text](https://github.com/FelipeLelis/TestFuerza/blob/main/images/teste_get_api_posts_all.png?raw=true)
+
+![alt text](https://github.com/FelipeLelis/TestFuerza/blob/main/images/teste_post_api_post.png?raw=true)
+
+![alt text](https://github.com/FelipeLelis/TestFuerza/blob/main/images/teste_put_api_posts.png?raw=true)
+
+![alt text](https://github.com/FelipeLelis/TestFuerza/blob/main/images/Tests.png?raw=true)
